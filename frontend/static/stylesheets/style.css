@@ -1,0 +1,171 @@
+/* All
+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* * {
+    font-family: raleway;
+} */
+
+main {
+
+    
+    background-color: rgb(226, 226, 226);
+   
+
+}
+
+
+
+/* HEADER 
+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: #4ec0cf;
+    z-index: 1;
+    color: white;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+
+    list-style: none;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+
+
+
+/* USER INPUT BOX 
+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.container {
+    margin-top: 70px;
+}
+
+.container h2 {
+    text-align: center;
+    color:rgb(61, 61, 61);
+    margin: 5px;
+}
+
+.input-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+input {
+    border-radius: 8px;
+    background-color: #d9e0e0;
+    color:rgb(61, 61, 61);
+    border: none;
+    padding: 12px ;
+    text-decoration: none;
+}
+
+select {
+    border-radius: 8px;
+    background-color: #d9e0e0;
+    color:rgb(61, 61, 61);
+    border: none;
+    padding: 12px ;
+
+    text-decoration: none;
+}
+
+ul {
+    /* columns: 2; */
+    list-style: none;
+    
+  }
+
+
+/* RESULTS BOX
++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.result-box h2 {
+    
+    color:rgb(61, 61, 61);
+    margin: 5px;
+}
+
+
+.result-box {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px; 
+border-radius: 8px;}
+
+
+/* VISUAL BOX 
+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.visual-box {
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.visual-box h2 {
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+}
+
+/* .input-box {
+    background-color: darkgray;
+    padding: 20px;
+
+} */
+
+
+.visualDropDown {
+    z-index: -1;
+}
+
+
+label {
+    color: rgb(61, 61, 61);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Input box 
+++++++++++++++++++++++++++++++++++++= */
+
+
+#submit {
+    border-radius: 8px;
+    background-color: #4ec0cf;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 35px;
+
+
+
+}

@@ -1,0 +1,71 @@
+{% extends "parent.html" %}
+{% block content %}
+<main>
+        
+<br>
+<br>
+
+<div class="container index-header">
+        <form method="POST" >
+                
+                <br>
+                <div class="input-box">
+               
+                        <h2>Did You Survive the Titanic?</h2>
+                        <hr>
+                        <br>
+                <ul>
+                        <li>
+                        <label for="age">How old are you?</label>
+                        <br>
+                        <input type="number" id="age" name="age" required>
+                        <br>
+                        </li>
+                        <li>
+                        <label for="sex">What sex were you assigned at birth?</label>
+                        <br>
+                        <select name="sex" id="sex">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                        </select>
+                        <br>
+                        </li>
+                        <li>
+                        <label for="cabin">What cabin were you in?</label>
+                        <br>
+                        <select name="cabin" id="cabin">
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                        </select>
+                        <br>
+                        </li>
+                        <li>
+                        <label for="class">What was your ticket class?</label>
+                        <br>
+                        <select name="class" id="class">
+                                <option value="First">First</option>
+                                <option value="Second">Second</option>
+                                <option value="Third">Third</option>
+                        </select>
+                        <br>
+                        </li>
+                        <li>
+                        <label for="fare">How much did your ticket cost (between 3-150)?</label>
+                        <br>
+                        <input type="number" id="fare" name="fare" required>
+                        <br>
+                        </li>
+                </ul>
+                        <input type="submit" id="submit" class="submit" name="submit" >
+                </div>
+        </form>
+</div>
+
+{% block validation %} {% endblock %}
+
+
+
+{% endblock %}
